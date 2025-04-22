@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Orange HR_Visual Testing</name>
+   <tag>@Visual Testing</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1349186e-d69d-43ef-bcce-0a496895b6d0</testCaseGuid>
+</TestCaseEntity>

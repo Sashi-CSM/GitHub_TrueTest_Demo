@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Orange HR_Visual Testing,Chrome 135.0.7049.96,,,19-04-2025 23:49:16,19-04-2025 23:49:46,30.517s,PASSED
+,,,,,,,
+Test Cases/Orange HR/TC_Orange HR_Visual Testing,Chrome 135.0.7049.96,,@Visual Testing,19-04-2025 23:49:16,19-04-2025 23:49:46,30.452s,PASSED
+Start listener action : enableSauceLabs,Chrome 135.0.7049.96,,,19-04-2025 23:49:16,19-04-2025 23:49:16,0.005s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.96,,,19-04-2025 23:49:16,19-04-2025 23:49:17,1.364s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:17,19-04-2025 23:49:18,1.143s,PASSED
+"switchToWindowTitle(""OrangeHRM"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:18,19-04-2025 23:49:20,1.743s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/h5_Login""), ""Login"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:20,19-04-2025 23:49:21,0.784s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:21,19-04-2025 23:49:21,0.551s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 135.0.7049.96,,,19-04-2025 23:49:21,19-04-2025 23:49:22,0.266s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:22,19-04-2025 23:49:23,1.291s,PASSED
+"takeScreenshotAsCheckpoint(""SH1"", STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,19-04-2025 23:49:23,19-04-2025 23:49:25,2.213s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Admin""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:25,19-04-2025 23:49:26,0.958s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/div_Admin""), ""Admin
+User Management"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:26,19-04-2025 23:49:27,1.161s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_PIM""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:27,19-04-2025 23:49:28,0.975s,PASSED
+"takeScreenshotAsCheckpoint(""SH2"", STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,19-04-2025 23:49:28,19-04-2025 23:49:30,1.680s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/div_PIM""), ""PIM"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:30,19-04-2025 23:49:30,0.234s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Leave""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:30,19-04-2025 23:49:31,0.975s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_OrangeHRM/h6_Leave""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:31,19-04-2025 23:49:33,1.403s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/div_Leave""), ""Leave"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:33,19-04-2025 23:49:33,0.244s,PASSED
+"takeScreenshotAsCheckpoint(""SH3"", STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,19-04-2025 23:49:33,19-04-2025 23:49:33,0.493s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Time""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:33,19-04-2025 23:49:34,0.924s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/div_Time""), ""Time
+Timesheets"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:34,19-04-2025 23:49:35,1.173s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Recruitment""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:35,19-04-2025 23:49:36,0.977s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_OrangeHRM/h6_Recruitment""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:36,19-04-2025 23:49:38,1.484s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/div_Recruitment""), ""Recruitment"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:38,19-04-2025 23:49:38,0.233s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_My Info""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:38,19-04-2025 23:49:39,1.003s,PASSED
+"takeScreenshotAsCheckpoint(""SH4"", STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,19-04-2025 23:49:39,19-04-2025 23:49:41,1.920s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/div_PIM""), ""PIM"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:41,19-04-2025 23:49:41,0.225s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Performance""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:41,19-04-2025 23:49:42,0.985s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/div_Performance""), ""Performance
+Manage Reviews"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:42,19-04-2025 23:49:44,1.244s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Dashboard""))",Chrome 135.0.7049.96,,,19-04-2025 23:49:44,19-04-2025 23:49:44,0.633s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/div_Dashboard""), ""Dashboard"")",Chrome 135.0.7049.96,,,19-04-2025 23:49:44,19-04-2025 23:49:46,1.472s,PASSED
+"takeScreenshotAsCheckpoint(""SH5"", STOP_ON_FAILURE)",Chrome 135.0.7049.96,,,19-04-2025 23:49:46,19-04-2025 23:49:46,0.479s,PASSED
+closeBrowser(),Chrome 135.0.7049.96,,,19-04-2025 23:49:46,19-04-2025 23:49:46,0.100s,PASSED
+Start listener action : autoUpdateJobStatus,Chrome 135.0.7049.96,,,19-04-2025 23:49:46,19-04-2025 23:49:46,0.000s,PASSED

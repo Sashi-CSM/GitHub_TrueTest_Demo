@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Orange HR_Visual Testing,,,,19-04-2025 23:56:26,19-04-2025 23:57:12,45.800s,FAILED
+,,,,,,,
+Test Cases/Orange HR/TC_Orange HR_Visual Testing,,,@Visual Testing,19-04-2025 23:57:01,19-04-2025 23:57:12,10.526s,FAILED
+Start listener action : enableSauceLabs,,,,19-04-2025 23:57:01,19-04-2025 23:57:01,0.001s,PASSED
+"openBrowser("""")",,,,19-04-2025 23:57:01,19-04-2025 23:57:12,10.512s,FAILED
+Start listener action : autoUpdateJobStatus,,,,19-04-2025 23:57:12,19-04-2025 23:57:12,0.001s,PASSED

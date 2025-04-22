@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Orange HR_Visual Testing,Chrome 135.0.7049.96,,,19-04-2025 23:43:54,19-04-2025 23:44:20,26.266s,FAILED
+,,,,,,,
+Test Cases/Orange HR/TC_Orange HR_Visual Testing,Chrome 135.0.7049.96,,@Visual Testing,19-04-2025 23:44:14,19-04-2025 23:44:20,6.349s,FAILED
+Start listener action : enableSauceLabs,Chrome 135.0.7049.96,,,19-04-2025 23:44:14,19-04-2025 23:44:14,0.001s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.96,,,19-04-2025 23:44:14,19-04-2025 23:44:14,0.611s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 135.0.7049.96,,,19-04-2025 23:44:14,19-04-2025 23:44:17,2.802s,PASSED
+"switchToWindowTitle(""OrangeHRM"")",Chrome 135.0.7049.96,,,19-04-2025 23:44:17,19-04-2025 23:44:17,0.039s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/h5_Login""), ""Login"")",Chrome 135.0.7049.96,,,19-04-2025 23:44:17,19-04-2025 23:44:18,0.760s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 135.0.7049.96,,,19-04-2025 23:44:18,19-04-2025 23:44:18,0.566s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 135.0.7049.96,,,19-04-2025 23:44:18,19-04-2025 23:44:19,0.269s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 135.0.7049.96,,,19-04-2025 23:44:19,19-04-2025 23:44:20,1.289s,PASSED
+"takeElementScreenshotAsCheckpoint(""SH1"", findTestObject(null))",Chrome 135.0.7049.96,,,19-04-2025 23:44:20,19-04-2025 23:44:20,0.002s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 135.0.7049.96,,,19-04-2025 23:44:20,19-04-2025 23:44:20,0.000s,PASSED

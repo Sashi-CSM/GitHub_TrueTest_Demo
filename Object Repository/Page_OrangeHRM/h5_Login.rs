@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>a8f7c46a-2da2-4d7f-a5d6-1b6f68ed3e0e</webElementGuid>
+      <webElementGuid>09a72bd8-c13f-4971-9017-b736899a1cb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--h5 orangehrm-login-title</value>
-      <webElementGuid>88270f71-fb3e-49bb-9d32-dc7766b67d9f</webElementGuid>
+      <webElementGuid>031cb2ca-989a-4025-b40e-a300485f2733</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>bb2ec192-e71d-42e4-939e-144d13efe50a</webElementGuid>
+      <webElementGuid>e638176f-82de-47af-8d90-346ef210c670</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>@text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>8845c1ec-802c-4ce4-a15b-959453cf8caf</webElementGuid>
+      <webElementGuid>8bfbb175-eadd-4880-ac5f-94be3757393a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-e7e2a00e7481e6ff962b0c803806fa28</value>
-      <webElementGuid>31cd52ac-7ed5-4138-a18e-48bc02409376</webElementGuid>
+      <webElementGuid>188e8374-5fcc-4649-b83e-725658b5956d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' orangehrm-login-title ')]</value>
-      <webElementGuid>db03c7ef-f9ad-44a4-8ecf-3cc52c500ab8</webElementGuid>
+      <webElementGuid>7f904265-43cc-4c30-9c45-6b4bf6dc7b17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' orangehrm-login-title ')]</value>
-      <webElementGuid>be4f7c7c-e9d9-44e5-91b1-ebea687bf01d</webElementGuid>
+      <webElementGuid>f11c947d-e360-48be-93e0-da2dcf883f3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>101378c6-3fe1-4446-805a-03646cd8adbb</webElementGuid>
+      <webElementGuid>148b2898-72ca-49a4-b648-0446d72e86ec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

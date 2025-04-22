@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;username&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>60f797fb-dd9c-4d42-8b50-06ea2aec09e8</webElementGuid>
+      <webElementGuid>1f6d87ca-2849-4ab4-bac5-d0408bff126e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-input oxd-input--focus</value>
-      <webElementGuid>3e1b48f8-b962-43d8-b103-69de4bb605e2</webElementGuid>
+      <value>oxd-input oxd-input--active</value>
+      <webElementGuid>6e04ac71-49ec-4de0-bbb7-03afe7500dab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,23 +45,23 @@
       <name>name</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>8b1c9ab4-bdd5-4fe6-9dc8-63eefa0247ac</webElementGuid>
+      <webElementGuid>f7abad3a-401e-419f-9e3f-2630fcc204df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>b704f2e4-fda3-42a4-8f32-a7997aeb17fb</webElementGuid>
+      <value>Username</value>
+      <webElementGuid>fcd2f743-1a03-40f3-b560-f44bdbf0cc25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>6fda3e56-8df4-4b48-bf6b-a77100674317</webElementGuid>
+      <value>Username</value>
+      <webElementGuid>40ec7254-9c93-4b20-80a5-386108e3dd31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-9bfcab1ad9353fa25cc2b736d671b8c8</value>
-      <webElementGuid>3c141d1e-2029-4ca6-bd0d-4197db13a06f</webElementGuid>
+      <webElementGuid>c6600f82-89c0-468d-bfb5-8050e0bd91e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@name = 'username']</value>
-      <webElementGuid>8006e17c-0115-471d-8434-92523c18d8a4</webElementGuid>
+      <webElementGuid>6e7bac3f-61a2-419c-9666-cd74d0a1f3c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@name = 'username']</value>
-      <webElementGuid>34c8b6ee-f526-4587-9f25-10b781c44d94</webElementGuid>
+      <webElementGuid>aed0e207-ff39-43c9-ba38-33152967100b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'username' and @placeholder = 'Username' and (text() = 'Username' or . = 'Username')]</value>
+      <webElementGuid>b8d7d968-24bc-4603-86d1-1ef60d33d100</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

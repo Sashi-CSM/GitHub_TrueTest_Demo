@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Orange HR_Visual Testing" time="30.793" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Orange HR_Visual Testing" tests="1" failures="0" errors="0" time="30.793" skipped="0" timestamp="19-04-2025T23:59:36" hostname="sashidharmudigonda - 192.168.1.7" id="Test Suites/TS_Orange HR_Visual Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/sashidharmudigonda/Documents/Katalon Projects/GitHub_TrueTest_Demo/Reports/20250419_235930/TS_Orange HR_Visual Testing/20250419_235931"/>
+         <property name="logFiles" value="/Users/sashidharmudigonda/Documents/Katalon Projects/GitHub_TrueTest_Demo/Reports/20250419_235930/TS_Orange HR_Visual Testing/20250419_235931/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-Screen Shot 1.png, keyes/keyes-Screen Shot 2.png, keyes/keyes-Screen Shot 3.png, keyes/keyes-Screen Shot 4.png, keyes/keyes-Screen Shot 5.png"/>
+         <property name="hostName" value="sashidharmudigonda - 192.168.1.7"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 135.0.7049.96"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="b7095f0c326eb11953fb41b146c29dc4"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Orange HR/TC_Orange HR_Visual Testing" time="30.738" classname="Test Cases/Orange HR/TC_Orange HR_Visual Testing" status="PASSED">
+         <system-out><![CDATA[19-04-2025T23:59:36 - [TEST_CASE][PASSED] - Test Cases/Orange HR/TC_Orange HR_Visual Testing: Test Cases/Orange HR/TC_Orange HR_Visual Testing
+
+19-04-2025T23:59:36 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-04-2025T23:59:36 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome (headless)
+
+19-04-2025T23:59:36 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+19-04-2025T23:59:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-04-2025T23:59:37 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+19-04-2025T23:59:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-04-2025T23:59:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-04-2025T23:59:38 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+19-04-2025T23:59:41 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+19-04-2025T23:59:41 - [TEST_STEP][PASSED] - switchToWindowTitle("OrangeHRM"): Switched to window with title: 'OrangeHRM'
+
+19-04-2025T23:59:41 - [MESSAGE][PASSED] - Switched to window with title: 'OrangeHRM'
+
+19-04-2025T23:59:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/h5_Login"), "Login"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/h5_Login' are matched.
+
+19-04-2025T23:59:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/h5_Login' are matched.
+
+19-04-2025T23:59:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+19-04-2025T23:59:42 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_username'
+
+19-04-2025T23:59:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+19-04-2025T23:59:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_password'
+
+19-04-2025T23:59:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+19-04-2025T23:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+19-04-2025T23:59:44 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Screen Shot 1", STOP_ON_FAILURE): Taking screenshot successfully
+
+19-04-2025T23:59:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-04-2025T23:59:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Screen Shot 1.png]]
+
+19-04-2025T23:59:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/span_Admin")): Object: 'Object Repository/Page_OrangeHRM/span_Admin' is clicked on
+
+19-04-2025T23:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Admin' is clicked on
+
+19-04-2025T23:59:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/div_Admin"), "Admin
+User Management"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Admin' are matched.
+
+19-04-2025T23:59:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Admin' are matched.
+
+19-04-2025T23:59:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Page_OrangeHRM/a_PIM' is clicked on
+
+19-04-2025T23:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_PIM' is clicked on
+
+19-04-2025T23:59:49 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Screen Shot 2", STOP_ON_FAILURE): Taking screenshot successfully
+
+19-04-2025T23:59:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-04-2025T23:59:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Screen Shot 2.png]]
+
+19-04-2025T23:59:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/div_PIM"), "PIM"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_PIM' are matched.
+
+19-04-2025T23:59:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_PIM' are matched.
+
+19-04-2025T23:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/span_Leave")): Object: 'Object Repository/Page_OrangeHRM/span_Leave' is clicked on
+
+19-04-2025T23:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Leave' is clicked on
+
+19-04-2025T23:59:52 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_OrangeHRM/h6_Leave")): Object: 'Object Repository/Page_OrangeHRM/h6_Leave' is right clicked on
+
+19-04-2025T23:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/h6_Leave' is right clicked on
+
+19-04-2025T23:59:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/div_Leave"), "Leave"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Leave' are matched.
+
+19-04-2025T23:59:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Leave' are matched.
+
+19-04-2025T23:59:53 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Screen Shot 3", STOP_ON_FAILURE): Taking screenshot successfully
+
+19-04-2025T23:59:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-04-2025T23:59:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Screen Shot 3.png]]
+
+19-04-2025T23:59:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/span_Time")): Object: 'Object Repository/Page_OrangeHRM/span_Time' is clicked on
+
+19-04-2025T23:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Time' is clicked on
+
+19-04-2025T23:59:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/div_Time"), "Time
+Timesheets"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Time' are matched.
+
+19-04-2025T23:59:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Time' are matched.
+
+19-04-2025T23:59:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/span_Recruitment")): Object: 'Object Repository/Page_OrangeHRM/span_Recruitment' is clicked on
+
+19-04-2025T23:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Recruitment' is clicked on
+
+19-04-2025T23:59:57 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_OrangeHRM/h6_Recruitment")): Object: 'Object Repository/Page_OrangeHRM/h6_Recruitment' is right clicked on
+
+19-04-2025T23:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/h6_Recruitment' is right clicked on
+
+19-04-2025T23:59:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/div_Recruitment"), "Recruitment"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Recruitment' are matched.
+
+19-04-2025T23:59:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Recruitment' are matched.
+
+19-04-2025T23:59:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_My Info")): Object: 'Object Repository/Page_OrangeHRM/a_My Info' is clicked on
+
+20-04-2025T00:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_My Info' is clicked on
+
+20-04-2025T00:00:00 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Screen Shot 4", STOP_ON_FAILURE): Taking screenshot successfully
+
+20-04-2025T00:00:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-04-2025T00:00:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Screen Shot 4.png]]
+
+20-04-2025T00:00:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/div_PIM"), "PIM"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_PIM' are matched.
+
+20-04-2025T00:00:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_PIM' are matched.
+
+20-04-2025T00:00:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Performance")): Object: 'Object Repository/Page_OrangeHRM/a_Performance' is clicked on
+
+20-04-2025T00:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Performance' is clicked on
+
+20-04-2025T00:00:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/div_Performance"), "Performance
+Manage Reviews"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Performance' are matched.
+
+20-04-2025T00:00:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Performance' are matched.
+
+20-04-2025T00:00:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Dashboard")): Object: 'Object Repository/Page_OrangeHRM/a_Dashboard' is clicked on
+
+20-04-2025T00:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Dashboard' is clicked on
+
+20-04-2025T00:00:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/div_Dashboard"), "Dashboard"): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Dashboard' are matched.
+
+20-04-2025T00:00:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/div_Dashboard' are matched.
+
+20-04-2025T00:00:07 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Screen Shot 5", STOP_ON_FAILURE): Taking screenshot successfully
+
+20-04-2025T00:00:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+20-04-2025T00:00:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Screen Shot 5.png]]
+
+20-04-2025T00:00:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-04-2025T00:00:07 - [MESSAGE][PASSED] - Browser is closed
+
+20-04-2025T00:00:07 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome (headless)
+
+20-04-2025T00:00:07 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome (headless)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-04-2025T23:59:36 - [TEST_SUITE][PASSED] - TS_Orange HR_Visual Testing: Test Cases/Orange HR/TC_Orange HR_Visual Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
