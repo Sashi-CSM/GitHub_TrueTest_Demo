@@ -1,0 +1,30 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button languageSelect",
+        "step 3: Click on link languageOptions (langDe)",
+        "step 4: Click on button languageSelect2",
+        "step 5: Click on link languageOptions (langEn)",
+        "step 6: Click on button languageSelect",
+        "step 7: Click on link languageOptions (langEs)",
+        "step 8: Click on button languageSelect3",
+        "step 9: Click on link languageOptions (langEn)",
+        "step 10: Click on link contact -> Navigate to page 'contact#contact'",
+        "step 11: Click on link signIn -> Navigate to page 'login auth#auth/login'",
+        "step 12: Click on link home -> Navigate to page '/'",
+        "step 13: Click on link dynamicObject (object)",
+        "step 14: Click on link productTools (productChiselsSet) -> Navigate to page 'product#product/*'",
+        "step 15: Click on link productList (productWoodCarvingChisels)",
+        "step 16: Click on link productList (productSwissWoodcarvingChisels)",
+        "step 17: Click on link categories",
+        "step 18: Click on link home -> Navigate to page '/'",
+        "step 19: Click on link dynamicObject (object2)",
+        "step 20: Click on link productTools (productEarProtection) -> Navigate to page 'product#product/*'",
+        "step 21: Click on link productList (productSafetyGoggles)",
+        "step 22: Click on link productList (productProtectiveGloves)",
+        "step 23: Click on link productList (productSuperThinProtectionGloves)",
+        "step 24: Click on link productList (productConstructionHelmet)",
+        "step 25: Click on link productList (productEarProtection) -> Navigate to page ''",
+        "step 26: Take full page screenshot as checkpoint"
+    ]
+}
