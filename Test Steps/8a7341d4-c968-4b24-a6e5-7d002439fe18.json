@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on label mightyCraftHardware",
+        "step 3: Click on link toolCategories (drawerToolCabinet) -> Navigate to page 'product#product/*'",
+        "step 4: Click on button cartFavorites (addToFavorites)",
+        "step 5: Click on link productList (toolCabinetMoreInfo)",
+        "step 6: Click on header productName",
+        "step 7: Click on link categories",
+        "step 8: Click on link rentals -> Navigate to page 'rental listings#*'",
+        "step 9: Click on image thorHammer -> Navigate to page 'product#product/*'",
+        "step 10: Click on link productList (productSledgehammer)",
+        "step 11: Click on header productName -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}
